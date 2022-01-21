@@ -1,6 +1,6 @@
 Name:           python-executing
 Version:        0.8.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Python library for inspecting the current frame run footprint
 
 License:        MIT
@@ -50,5 +50,8 @@ Summary:        %{summary}
 
 
 %changelog
+* Fri Jan 21 2022 Fedora Release Engineering <releng@fedoraproject.org> - 0.8.2-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_36_Mass_Rebuild
+
 * Mon Dec 27 2021 Roman Inflianskas <rominf@aiven.io> - 0.8.2-1
 - Initial package
