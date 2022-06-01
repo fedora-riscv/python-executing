@@ -7,6 +7,10 @@ License:        MIT
 URL:            https://github.com/alexmojaki/executing
 # The package uses setuptools_scm, GitHub tarball will not work
 Source0:        %{pypi_source executing}
+Patch1:         0001-Disable-failing-test-on-Python-3.11.patch
+# patch needed for compatibility with Python 3.11
+# https://github.com/alexmojaki/executing/pull/31
+Patch31:        31.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
